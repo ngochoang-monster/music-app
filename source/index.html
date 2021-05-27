@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="./css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="dashboard">
+            <div class="header">
+                <span id="title-header">Now Playing:</span>
+                <h3 class="name-song"></h3>
+                <div class="cd">
+                    <div class="cd-thumb"></div>
+                </div>
+            </div>
+            <div class=" control">
+                <div class="repeat">
+                    <i class="fas fa-redo"></i>
+                </div>
+                <div class="pre-next">
+                    <i class="fas fa-caret-left"></i>
+                </div>
+                <div class="control-play">
+                    <i class="far fa-pause-circle icon-play"></i>
+                    <i class="fas fa-play-circle icon-pause "></i>
+                </div>
+                <div class="next">
+                    <i class="fas fa-caret-right"></i>
+                </div>
+                <div class="random">
+                    <i class="fas fa-random"></i>
+                </div>
+            </div>
+            <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+            <audio id="audio"></audio>
+        </div>
+        <div class="wrapper-song">
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
