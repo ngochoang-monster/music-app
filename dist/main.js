@@ -27,44 +27,44 @@ const app = {
         {
             name: 'Thủ Đô Cyber',
             singer: 'RPT Orijinn, LOW G, RZMas, RPT MCK',
-            image: '../assets/images/artworks-acvKs7r8sVX92gpE-OyXAYQ-t500x500.jpg',
-            song: '../assets/songs/ThuDoCypher-RPTMCKOrijinnRzMaLowG-6678270.mp3'
+            image: './assets/images/artworks-acvKs7r8sVX92gpE-OyXAYQ-t500x500.jpg',
+            song: './assets/songs/ThuDoCypher-RPTMCKOrijinnRzMaLowG-6678270.mp3'
         },
         {
             name: 'So close',
             singer: 'BinZ vs Phương Ly',
-            image: '../assets/images/so-close.jpg',
-            song: '../assets/songs/SoClose-BinzPhuongLy-6057836.mp3'
+            image: './assets/images/so-close.jpg',
+            song: './assets/songs/SoClose-BinzPhuongLy-6057836.mp3'
         },
         {
             name: 'Hết Duyên',
             singer: 'NIT X TĂNG DUY TÂN',
-            image: '../assets/images/het-duyen.jpg',
-            song: '../assets/songs/HetDuyenDoNguoiKia-NITTangDuyTan-5488521.mp3'
+            image: './assets/images/het-duyen.jpg',
+            song: './assets/songs/HetDuyenDoNguoiKia-NITTangDuyTan-5488521.mp3'
         },
         {
             name: 'Người Mua Vui',
             singer: 'Lil Shady',
-            image: '../assets/images/nguoi-mua-vui.jpg',
-            song: '../assets/songs/NguoiMuaVui-LilShadyLEG-3031805.mp3'
+            image: './assets/images/nguoi-mua-vui.jpg',
+            song: './assets/songs/NguoiMuaVui-LilShadyLEG-3031805.mp3'
         },
         {
             name: 'Siêu Sao',
             singer: 'Lil Shady if Kyo',
-            image: '../assets/images/sieu-sao.jpg',
-            song: '../assets/songs/SieuSao-LilShadyKyo-3789419.mp3'
+            image: './assets/images/sieu-sao.jpg',
+            song: './assets/songs/SieuSao-LilShadyKyo-3789419.mp3'
         },
         {
             name: 'Ý Niệm',
             singer: 'Kyo vs Zenky',
-            image: '../assets/images/y-niem.jpg',
-            song: '../assets/songs/YNiem-KYO-Zenky_34jsy_hq.mp3'
+            image: './assets/images/y-niem.jpg',
+            song: './assets/songs/YNiem-KYO-Zenky_34jsy_hq.mp3'
         },
         {
             name: 'So far',
             singer: 'BinZ',
-            image: '../assets/images/so-far.jpg',
-            song: '../assets/songs/SoFar-Binz-5521790.mp3'
+            image: './assets/images/so-far.jpg',
+            song: './assets/songs/SoFar-Binz-5521790.mp3'
         }
     ],
     render() {
